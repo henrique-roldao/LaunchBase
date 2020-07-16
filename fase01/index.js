@@ -2,17 +2,22 @@
 // das notas entre os alunos e envia
 // mensagem do cálculo da média.
 
+const aluno01 = {
+  nome: "Henrique",
+  nota: 9.8
+}
 
-const aluno01 = "Henrique";
-const notaAluno01 = 9.8;
+const aluno02 = {
+  nome: "Ronaldo",
+  nota: 10
+}
 
-const aluno02 = 'Mayk';
-const notaAluno02 = 10;
+const aluno03 = {
+  nome: "Fulano",
+  nota: 2
+}
 
-const aluno03 = `Fulano`;
-const notaAluno03 = 2;
-
-const media = (notaAluno01 + notaAluno02 + notaAluno03) / 3;
+const media = (aluno01.nota + aluno02.nota + aluno03.nota) / 3;
 
 // Se a média for maior que 5, parabenizar a turma.
 if (media > 5) {
